@@ -1,0 +1,202 @@
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  margin:5px;
+ 
+}
+
+/* Navigation styles */
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: black;
+  
+}
+
+.logo-container {
+  
+  margin-right: 1rem;
+}
+
+.logo-container img {
+  width: 150px;
+  height:130px;
+
+border:2px solid black;
+border-radius: 5px;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+text-decoration: none;
+  
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-decoration: none;
+}
+
+nav ul li {
+ text-decoration: none;
+  margin-right:05px;
+  padding: 3px 3px;
+ 
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+ font-size: larger;
+  border: 2px solid white;
+  padding: 0px;
+  border-radius: 10%;
+  margin-right: 10px; 
+  padding: 5px;
+
+}
+
+nav a:hover {
+  color: #666;
+
+}
+
+nav .logout {
+  background-color: #f44336;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 10%;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+nav .logout:hover {
+  background-color: #d32f2f;
+}
+input{
+width: 215px;
+height:25px;
+border:3px solid white;
+border-radius: 8px;
+font-size: larger;
+margin-left:80px;
+
+
+}
+
+
+
+ 
+.mar{
+color:red;
+word-spacing:10px;
+}
+.mar:hover{
+color:black;
+background-color:red;
+}
+
+.text{
+color:red;
+text-align:center;
+padding: 8px 12px;
+position: absolute;
+bottom: 20px;
+width: 100%;
+margin-left: 50px;
+
+}
+.text1{
+font-size:22px;
+font-weight: bolder;
+margin-left:30px;
+
+}
+
+.footer{
+margin-top:0px;
+background-color: black;
+padding: 50px 0;
+
+}
+
+.container{
+margin: auto;
+}
+
+.row{
+
+display: flex;
+flex-wrap: wrap;
+margin-left: 50px;
+}
+.footer-col{
+
+width: 25%;
+padding:0 15px;
+box-sizing:border-box;
+width: 50;
+}
+
+li{
+
+font-size: larger;
+color: white;
+list-style: none;
+}
+
+.footer-col h2{
+color:yellow;
+font-weight: bolder;
+}
+
+h3{
+color: white;
+}
+.main{
+display:flex;
+flex-wrap: wrap;
+}
+.content-column{
+width: 360px;
+text-align: center;
+margin-left: 300px;
+background-color:lightyellow;
+}
+.R{
+
+margin-top: 5px;
+border: 3px dashed blue; 
+padding: 5px;
+border-radius: 4px;
+height: fit-content;
+color: white;
+font-size:large;
+background-color:blue;
+}
+
+.R1{
+color:red;
+padding-top: 15px;
+font-weight: bolder;
+text-align:justify;
+
+align-content: center;
+text-decoration:underline;
+font-size: larger;
+}
+

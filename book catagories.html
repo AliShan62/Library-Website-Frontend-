@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>UE CENTERAL LIBRARY </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./Book catalog.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      font-family: auto;
+    }
+
+    /* .mySlides {display: none;}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: 0px;
+
+
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 17px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+
+
+
+    }
+
+    .active {
+      background-color: red;
+    }
+
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {
+        font-size: 11px
+      }
+    }
+
+    .blink_text {
+
+      animation: 2s blinker linear infinite;
+      -webkit-animation: 2s blinker linear infinite;
+      -moz-animation: 2s blinker linear infinite;
+     
+    
+    }
+
+    @-moz-keyframes blinker {
+      0% {
+        opacity: 1.0;
+      }
+
+      50% {
+        opacity: 0.0;
+      }
+
+      100% {
+        opacity: 1.0;
+      }
+    }
+
+    @-webkit-keyframes blinker {
+      0% {
+        opacity: 1.0;
+      }
+
+      50% {
+        opacity: 0.0;
+      }
+
+      100% {
+        opacity: 1.0;
+      }
+    }
+
+    @keyframes blinker {
+      0% {
+        opacity: 1.0;
+      }
+
+      50% {
+        opacity: 0.0;
+      }
+
+      100% {
+        opacity: 1.0;
+      }
+    }
+
+
+    .secondcol {
+     margin-left: 70px;
+      font-weight: 900;
+      width: 440px;
+      background-color: rgb(38 39 71);
+      border: 2px solid rgb(38 39 71);
+      border-radius: 9px;
+
+      color: yellow;
+      text-align: center;
+      height: fit-content;
+      padding: 4px 0px 0px 0px;
+
+    }
+
+
+    .lowerpart {
+      margin-left: 70px;
+      margin-top: 5px;
+      width:440px;
+      font-size: larger;
+      text-align: justify;
+      align-items: center;
+
+      word-spacing: 10px;
+      font-weight: bold;
+      color: red;
+      background-color: black;
+      border: 2px solid black;
+      border-radius: 5px;
+    }
+
+
+    .row1 {
+      margin-left: 70px;
+
+    }
+
+    .row2 {
+      margin-left: 70px;
+    }
+
+
+
+    .middlerow {
+      height: 30px;
+      font-size: larger;
+      font-weight: bold;
+      margin-left: 80px;
+      margin-top: 10px;
+      margin-bottom: 50px;
+
+    }
+
+    .anchor {
+
+      padding-right: 130px;
+
+    }
+
+
+    .endrow {
+      height: 30px;
+      font-size: larger;
+      font-weight: bold;
+      margin-left: 80px;
+      margin-top: 15px;
+      margin-bottom: 50px;
+    }
+
+
+
+   
+  </style>
+
+
+
+</head>
+
+<body>
+  
+  <header id="box1" style="margin: 5px;">
+    <div class="logo-container">
+      <a href="https://www.linkedin.com/school/universityofeducation/"><img
+          src="./university-of-education-logo-E7CDBBE91A-seeklogo.com.png" alt="Library logo"
+          style="margin-right: 30px; background-color: black;"></a>
+    </div>
+    <nav class="cls">
+      <ul style=" font-family: auto;">
+        <li><a href="http://127.0.0.1:5500/website.html" style="text-decoration: none;">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/Search.html" style="text-decoration: none;">Search</a></li>
+        <li><a href="http://127.0.0.1:5500/About.html" style="text-decoration: none;">About Us </a></li>
+         <li><a href="http://127.0.0.1:5500/Database.html"  style="text-decoration: none;">Database</a></li>
+        <li><a href="http://centrallibrary.ue.edu.pk/"  style="text-decoration: none;">Koha Lists</a></li>
+        <li><a href="http://127.0.0.1:5500/Faculty.html"  style="text-decoration: none;">Faculty</a></li>
+        <li style="margin-right: 40px; "><a href="http://127.0.0.1:5500/Contact.html" style="text-decoration: none;">Contact Us</a></li>
+
+        <li><a href=""></a></li>
+
+      </ul>
+  
+
+      <input type="text" name="searech" id="searech" >
+      <form>
+        <button style="margin-left:20px; font-size:medium; border:2px solid black; border-radius: 5px; padding:1px;width: 50px;"
+          type="submit">search</button>
+
+
+      </form>
+
+    </nav>
+
+
+  </header>
+
+  <h3  style="background-color:rgb(38 39 71); width: fit-content; padding: 3px; margin-left: 5px; border:2px solid  #28294a; border-radius: 4px; color: yellow;font-size: x-large;  font-weight: bold;" >
+    Our Aim Is Your Bright Future</h3>
+  <!-- end header -->
+
+  <!-- start main part -->
+
+  <!-- here it slider ok -->
+
+  <div style="display: flex; flex-wrap: wrap; ">
+    <div>
+      <div class="slideshow-container" style="margin-left: 5px; ">
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="./img1.jpeg" width="1050px" height="550px">
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="img2.jpeg" width="1050px" height="550px">
+        </div>
+
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="img3.jpeg" width="1050px" height="550px">
+
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="./img4.jpeg" width="1050px" height="550px">
+
+        </div>
+
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="./img5.jpeg" width="1050px" height="550px">
+        </div>
+
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="./img6.jpeg" width="1050px" height="550px">
+        </div>
+
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="img7.jpeg" width="1050px" height="550px">
+
+        </div>
+
+
+
+
+      </div>
+
+      <div style="margin-left:500px; margin-top: 50px;">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+
+      </div>
+
+    </div>
+    <!--  end first column -->
+
+
+
+    <!-- start second column -->
+    <div>
+      <div class=" secondcol">
+        <h2>Book Categories Infomation</h2>
+      </div>
+
+      <div class="lowerpart">
+        <marquee behavior="alternate" direction="right" scrollamount="2">
+          <p>* All Science Subjects Books</p>
+          <p>* Especially Islamic Books</p>
+          <p>* CSS Preparation Books</p>
+          <p>* Test Preparation Books</p>
+          <p>* Art & Photography Books</p>
+          <p>* Crime & Thriller Books</p>
+          <p>* Science Fiction Books</p>
+          <p>* Fantacy & Horror Books</p>
+          <p>* Craft & Hobbies Books</p>
+          <p>* Food & Drink Books</p>
+          <p>* Biography Books</p>
+          <p>* All Departments Books </p>
+        </marquee>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- here end  -->
+
+  <div style="margin-top: 5px; margin-left: 20px; text-decoration: underline;  ">
+    <h2
+      style="font-weight: bolder; color :yellow; border: 2px solid rgb(38 39 71); background-color: rgb(38 39 71); margin-right: 20px; padding-left: 20px; border-radius: 4px;">
+      Books Categories</h2>
+  </div>
+
+  <div class="rows" style="margin-top :35px;">
+    <div class="row1">
+
+      <a
+        href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB">
+        <img src="./art2.jpg" alt="" width="200px" height="200px" style="margin: 10px 74px 0px 15px;">
+      </a>
+
+      <a
+        href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB">
+        <img src="./crime.jpg" alt=""width="200px" height="200px" style="margin: 10px 74px 0px 0px;">
+      </a>
+
+      <a
+        href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB">
+        <img src="./science.webp" alt="" width="200px" height="200px" style="margin: 10px 74px 0px 0px;">
+      </a>
+
+      <a
+        href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB">
+        <img src="./horror.jpg" alt=""width="200px" height="200px" style="margin: 10px 74px 0px 0px;">
+      </a>
+
+      <a
+        href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB">
+
+        <img src="./islamic1.jpg" alt="" width="200px" height="200px" style="margin: 10px 0px 0px 0px;">
+
+      </a>
+    </div>
+
+    <div class="middlerow">
+      <caption><a
+          href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB"
+          style="color: black; text-decoration: none; " class="anchor"> Arts & Photography</a></caption>
+      <caption><a
+          href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB"
+          style="color: black; text-decoration: none; " class="anchor"> Crime & Thriller</a></caption>
+      <caption><a
+          href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB"
+          style="color: black; text-decoration: none;" class="anchor" > Science Fiction</a></caption>
+      <caption><a
+          href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB"
+          style="color: black; text-decoration: none; margin-right: 20px; " class="anchor"> Fantacy & Horror</a></caption>
+      <caption><a
+          href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB"
+          style="color: black; text-decoration: none; padding-right: 0px; " class="anchor"> Islamic studty</a></caption>
+
+
+    </div>
+    <div class="row2">
+
+      <a
+        href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB">
+        <img src="./biography.jpg" alt="" width="200px" height="200px" style="margin: 10px 74px 0px 15px;">
+      </a>
+
+      <a
+        href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB">
+        <img src="./food.jpg" alt=""width="200px" height="200px" style="margin: 10px 74px 0px 0px;">
+      </a>
+
+      <a
+        href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB">
+        <img src="./hobbies.jpg" alt="" width="200px" height="200px" style="margin: 10px 74px 0px 0px;">
+      </a>
+
+      <a
+        href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB">
+        <img src="./graphic.jpg" alt="" width="200px" height="200px" style="margin: 10px 74px 0px 0px;">
+      </a>
+
+      <a
+        href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB">
+
+        <img src="./css.jpeg" alt="" width="200px" height="200px" style="margin: 10px 0px 0px 0px;">
+
+      </a>
+
+    </div>
+
+
+    <div class="endrow" >
+      <caption><a 
+          href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB"
+          style="color: black; text-decoration: none; margin-left: 15px;  margin-right: 110px;" class="anchor1"> Schalors Biographies</a></caption>
+      <caption><a 
+          href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB"
+          style="color: black; text-decoration: none;  margin-right: 160px;" class="anchor1"> Food & Drink</a></caption>
+      <caption><a 
+          href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB"
+          style="color: black; text-decoration: none;  margin-right: 170px;" class="anchor1"> Craft & Hobbies</a></caption>
+      <caption><a 
+          href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB"
+          style="color: black; text-decoration: none;  margin-right: 170px;" class="anchor1">  Graphics </a></caption>
+      <caption><a 
+          href="https://www.nypl.org/?gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qUt0ugdBaESLB21CGfB6iOL2exaT8PTPTl3lI_4ZwuIQhvGV7_GtD0aApoPEALw_wcB"
+          style="color: black; text-decoration: none; text-align: center; padding-right: none; " class="anchor1" >CSS Preparation</a></caption>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- start footer -->
+
+  <footer class="footer bg-black text-white  " >
+    <div>
+      <div class="row" style=" font-weight:normal;  font-family: auto; ">
+        <div class="col-sm-3 ">
+          <h2 style="color: yellow; font-size: x-large;font-weight: bold;">Social Links</h2>
+
+          <ul class="list-unstyled" style="line-height:1.9;">
+            <li>
+              <a href="https://www.facebook.com/ue.edu.pk.officiall/" class="text-white" style="text-decoration: none;">
+                <i class="fab fa-facebook"></i> Facebook
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/ue_edu_pk" class="text-white" style="text-decoration: none;">
+                <i class="fab fa-twitter"></i> Twitter
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/school/universityofeducation/" class="text-white"  style="text-decoration: none;">
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h2 style="color: yellow; font-size: x-large;font-weight: bold;">Follow Us</h2>
+
+          <ul class="list-unstyled" style="line-height:1.9;">
+            <li>
+              <i class="fas fa-envelope"></i> centrallibrary@ue.edu.pk
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i> faiza.tabassum@ue.edu.pk
+            </li>
+            <li>
+              <i class="fas fa-phone"></i> 0333-4062377
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-3 " style="line-height:1.5; font-weight: bold;">
+          <h2 style="color: yellow; font-size: x-large;  font-weight: bold;">Address</h2>
+          <p style="font-size: larger;">University of Education</p>
+          <p style="font-size: larger;"> College  Road Township Campus </p>
+          <p style="font-size: larger;">Lahore</p>
+        </div>
+
+        <div class="col-sm-3" style="line-height:1.3; font-weight: bold;">
+          <h2 class="mb-4" style="color: yellow; font-size: x-large;font-weight: bold;">Developer Information</h2>
+
+          <p style="font-size: large;">
+            <a href="https://www.linkedin.com/in/ali-shan-0319a4243/" class="text-white" style="text-decoration: none;">
+              Name: Ali Shan
+            </a>
+          </p>
+          <p style="font-size: large; ">
+            <a href="https://www.linkedin.com/in/ali-shan-0319a4243/" class="text-white" style="text-decoration: none;">
+              Class: BS IT
+            </a>
+          </p>
+          <p style="font-size: large; ">
+            <a href="https://www.linkedin.com/in/ali-shan-0319a4243/" class="text-white" style="text-decoration: none;">
+              Frontend Web Developer
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 1000); // Change image every 2 seconds
+
+    }
+
+
+
+  </script>
+
+
+
+
+</body>
+
+</html>

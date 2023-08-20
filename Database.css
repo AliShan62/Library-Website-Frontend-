@@ -1,0 +1,169 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    margin:5px;
+   
+}
+
+/* Navigation styles */
+header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    
+  }
+  
+  .logo-container {
+    
+    margin-right: 1rem;
+  }
+  
+  .logo-container img {
+    width: 150px;
+    height:130px;
+  
+  border:2px solid black;
+  border-radius: 5px;
+  
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+  }
+  
+  nav ul li {
+   
+    margin-right:35px;
+    padding: 3px 3px;
+       text-decoration: none;
+  }
+  
+  nav a {
+    color:white;
+    text-decoration: none;
+  font-weight: bold;
+   font-size:20px;
+   text-decoration: none;
+
+  }
+  
+  nav a:hover {
+    color: #666;
+  
+  }
+  
+  nav .logout {
+    background-color: #f44336;
+    color: #fff;
+    padding: 0.2rem;
+    border-radius: 10%;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: larger;
+  }
+  
+ 
+input{
+width: 220px;
+height:20px;
+border:3px solid white;
+border-radius: 5px;
+font-size: large;
+
+
+
+}
+
+
+.footer{
+  margin-top:0px;
+ background-color: black;
+ padding: 50px 0;
+ 
+}
+
+.container{
+ margin: auto;
+}
+
+.row{
+
+ display: flex;
+ flex-wrap: wrap;
+ margin-left: 50px;
+}
+.footer-col{
+
+ width: 25%;
+ padding:0 15px;
+ box-sizing:border-box;
+ width: 50;
+}
+
+li{
+  
+  font-size: larger;
+  color: white;
+  list-style: none;
+}
+
+.footer-col h2{
+ color:yellow;
+ font-weight: bolder;
+}
+
+h3{
+  color: white;
+}
+.main{
+  display:flex;
+  flex-wrap: wrap;
+}
+.content-column{
+ width: 360px;
+  text-align: center;
+  margin-left: 10px;
+  background-color:lightyellow;
+
+}
+.R{
+
+  margin-top: 0px;
+  border: 3px dashed blue; 
+  padding: 5px;
+  border-radius: 4px;
+  height: fit-content;
+  color: white;
+  font-size:large;
+  background-color:blue;
+}
+
+.R1{
+  color:red;
+  padding-top: 15px;
+  font-weight: bolder;
+  text-align:justify;
+ 
+  align-content: center;
+  text-decoration:underline;
+  font-size: larger;
+}
+

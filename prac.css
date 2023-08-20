@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dee1dee2;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.05);
+
+
+}
+
+.logo {
+
+
+    padding-top: 20px;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1em;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+header ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scaleX(0);
+    transition:transform 0.5s ease-in-out;
+    transform-origin: right;
+}
+
+header ul li a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+header.search{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    z-index: 10px;
+    cursor: pointer1;
+    color:#333;
+
+}
+
+.searchBox{
+
+    position:absolute;
+    right:-100%;
+    width: 100%;
+    height:100% ;
+    display:flex;
+    background: #fff;
+    align-items: center;
+    padding: 0 30px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.searchBox.active{
+    right: 0;
+}
+
+
+.searchBox input{
+    width:100% ;
+    border: none;
+    outline: none;
+    height:50px ;
+    color:#333 ;
+    font-size: 1.25em;
+background:#fff ;
+border-bottom: 1px solid rgba(0, 0,0,1);
+}
